@@ -51,7 +51,7 @@ app.use(ratelimit({
 InitManager.initCore(app)
 
 app.listen(5001, () => {
-  console.log('Koa is listening in http://localhost:5000')
+  console.log('Koa is listening in http://localhost:5001')
 })
 
 module.exports = app
